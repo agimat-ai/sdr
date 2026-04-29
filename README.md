@@ -61,6 +61,25 @@ uv run python app.py --message "Send out a cold sales email addressed to Dear CE
 uv run python -m unittest discover -s tests -p "test_*.py"
 ```
 
+## View Agent Traces
+
+This project wraps runs with `trace(...)` in `sdr/runtime.py`, so each run is recorded as an Agent Trace.
+
+1. Run the app:
+
+```bash
+uv run python app.py
+```
+
+2. Open the OpenAI Traces page:
+
+- [OpenAI Traces](https://platform.openai.com/traces)
+
+3. Look for traces named:
+
+- `Protected Automated SDR`
+- `Automated SDR`
+
 ## Project Structure
 
 - `app.py` - CLI entrypoint
