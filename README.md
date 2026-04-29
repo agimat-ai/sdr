@@ -6,6 +6,11 @@ Minimal SDR orchestration app using OpenAI Agents, multiple model providers, gua
 
 - Python 3.12+
 - [`uv`](https://docs.astral.sh/uv/) installed
+- SendGrid account with:
+  - a generated API key (Mail Send permission)
+  - a verified sender identity (Single Sender Verification or authenticated domain)
+  - setup docs: [Twilio SendGrid Docs](https://docs.sendgrid.com/)
+  - dashboard: [SendGrid Dashboard](https://app.sendgrid.com/)
 
 ## Setup (with uv)
 
