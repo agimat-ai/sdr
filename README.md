@@ -1,4 +1,4 @@
-# SDR Automation with Guardrails
+# Sales Development Representative (SDR) Automation with Guardrails
 
 Minimal SDR orchestration app using OpenAI Agents, multiple model providers, guardrails, and SendGrid delivery.
 
